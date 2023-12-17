@@ -97,6 +97,15 @@ void varKeyword() {
   print(age);
 }
 
+/// Detta är en dokumentationstest
+void runes() {
+  String value = "Kalle";
+  String value2 = "kalle";
+
+  print(value.runes);
+  print(value2.runes);
+}
+
 // Huvudfunktionen
 void main() {
   //printName();
@@ -107,5 +116,6 @@ void main() {
   //lists();
   //sets();
   //maps();
-  varKeyword();
+  //varKeyword();
+  runes();
 }
